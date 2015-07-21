@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/main_header"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:text="@string/mainBtnSpotifyStreamer"
+            android:id="@+id/btnSpotifyStreamer"
+            style="@style/appButtonExcercise" />
+
+        <Button
+            android:text="@string/mainBtnScoresApp"
+            android:id="@+id/btnScoresApp"
+            style="@style/appButtonExcercise" />
+
+        <Button
+            android:text="@string/mainBtnLibraryApp"
+            android:id="@+id/btnLibraryApp"
+            style="@style/appButtonExcercise" />
+
+        <Button
+            android:text="@string/mainBtnBuildItBigger"
+            android:id="@+id/btnBuildItBigger"
+            style="@style/appButtonExcercise" />
+
+        <Button
+            android:text="@string/mainBtnXyzReader"
+            android:id="@+id/btnXyzReader"
+            style="@style/appButtonExcercise" />
+
+        <Button
+            android:text="@string/mainBtnCapstoneMyOwnApp"
+            android:id="@+id/btnCapstoneMyOwnApp"
+            style="@style/appButtonMy" />
+    </LinearLayout>
+</RelativeLayout>

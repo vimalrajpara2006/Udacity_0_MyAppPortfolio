@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+
+    <string name="mainBtnSpotifyStreamer">SPOTIFY STREAMER</string>
+    <string name="mainBtnScoresApp">SCORES APP</string>
+    <string name="mainBtnLibraryApp">LIBRARY APP</string>
+    <string name="mainBtnBuildItBigger">BUILD IT BIGGER</string>
+    <string name="mainBtnXyzReader">XYZ READER</string>
+    <string name="mainBtnCapstoneMyOwnApp">CAPSTONE : MY OWN APP</string>
+
+    <string name="msgMainAppBtnClick">This button will launch my %s !</string>
+
+</resources>
